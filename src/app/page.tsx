@@ -37,10 +37,10 @@ export default function Home() {
 
 
       <div className=" flex justify-center items-center bg-price_component_background dark:bg-dark_price_component_background">
-        <div className="h-[55%] shadow-lg grid grid-row-2 rounded-lg w-[90%] md:w-1/2 md-plus:w-[44%] md:h-[55%] lg-plus:w-[33%]  ll-plus:w-[28%]  xl-plus:h-[45%] border-2 border-gray-50 dark:border-gray-700 absolute  bottom-[3rem] md:bottom-[2.6rem] lg:bottom-10 lg-plus:bottom-9 ll-plus:bottom-16 xl:bottom-40 bg-price_component_background dark:bg-dark_price_component_background">
+        <div className="h-[55%] shadow-lg grid grid-row-2 rounded-lg w-[90%] md:w-1/2 md-plus:w-[44%] md:h-[55%] lg-plus:w-[33%]  ll-plus:w-[28%] lg-plus:h-[50%] xl-plus:h-[45%] border-2 border-gray-50 dark:border-gray-700 absolute  bottom-[3rem] md:bottom-[2.6rem] lg:bottom-10 lg-plus:bottom-20 ll-plus:bottom-24 xl:bottom-40 bg-price_component_background dark:bg-dark_price_component_background">
         <div className='lg:px-10 flex flex-col itmes-center justify-center gap-10'>
-          <div className="text-text_text text-sm flex flex-col lg:flex-row items-center justify-between gap-y-7 lg:gap-y-0 'md-plus': '1024px', // Custom screen for 1024px
-        'xl-plus': '1440px',dark:text-dark_text_text">
+          <div className="text-text_text text-sm flex flex-col lg:flex-row items-center justify-between gap-y-7 lg:gap-y-0 
+        dark:text-dark_text_text">
             <h4 className='mt-4 lg:mt-0 '>{pageviews}k PAGEVIEWS</h4>
             <Slider value={[pageviews]}
             onValueChange={(value) => setPageviews(value[0])}
