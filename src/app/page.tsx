@@ -32,7 +32,7 @@ export default function Home() {
       <div className=" flex flex-col items-center justify-center gap-y-5 bg-top-pattern bg-no-repeat bg-center bg-main_background dark:bg-dark_main_background rounded-bl-[8rem] lg:rounded-bl-[15rem] ">
         <h2 className=" font-extrabold text-center text-xl lg:text-3xl mt-16 dark:text-white">Simple, traffic-based pricing</h2>
         <p className=" text-text_text dark:text-dark_text_text text-center text-sm lg:text-base ">Sign-up for our 30-day trial.<br className='lg:hidden'/> No credit card required.</p>
-        <p className='text-sm text-text_text -ml-3 dark:text-dark_text_text cursor-pointer' onClick={toggleTheme}>{theme==='light'?'Dark Mode':'LightMode'}</p>
+        <p className='text-sm text-text_text -ml-3 dark:text-dark_text_text cursor-pointer' onClick={toggleTheme}>{theme==='light'?'Dark Mode':'Light Mode'}</p>
       </div>
 
 
