@@ -59,6 +59,8 @@ const config: Config = {
 					'4': 'hsl(var(--chart-4))',
 					'5': 'hsl(var(--chart-5))'
 				},
+
+				// light ones
 				fullSlider_soft_cyan: 'hsl(174, 77%, 80%)',
 				slider_background: 'hsl(174, 86%, 45%)',
 				discount_background: 'hsl(14, 92%, 95%)',
@@ -69,7 +71,20 @@ const config: Config = {
 				empty_slider_bar: 'hsl(224, 65%, 95%)',
 				toggle_background: 'hsl(223, 50%, 87%)',
 				text_text: 'hsl(225, 20%, 60%)',
-				text_cta_background: 'hsl(227, 35%, 25%)'
+				text_cta_background: 'hsl(227, 35%, 25%)',
+
+				// dark ones
+				dark_fullSlider_soft_cyan: 'hsl(174, 77%, 35%)',         
+				dark_slider_background: 'hsl(174, 86%, 30%)',            
+				dark_discount_background: 'hsl(14, 92%, 25%)',           
+				dark_discount_text: 'hsl(15, 100%, 60%)',                
+				dark_CTA: 'hsl(226, 100%, 85%)',                         
+				dark_price_component_background: 'hsl(230, 15%, 15%)',   
+				dark_main_background: 'hsl(230, 15%, 10%)',              
+				dark_empty_slider_bar: 'hsl(224, 25%, 20%)',
+				dark_toggle_background: 'hsl(223, 30%, 30%)',           
+				dark_text_text: 'hsl(225, 10%, 75%)',                    
+				dark_text_cta_background: 'hsl(227, 25%, 20%)'  
 
 			},
 			borderRadius: {
